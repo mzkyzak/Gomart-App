@@ -1,7 +1,14 @@
+## 🚀 Versi Ringan & Efisien
+
+* 🖥️ **Visual Studio** → menjalankan aplikasi C#
+* 🗄️ **SQL Server Management Studio** → mengelola database
+
+---
+
 # 🛒 Gomart App (C# WinForms + SQL Server)
 
-Aplikasi desktop sederhana berbasis **C# WinForms** menggunakan **LINQ to SQL** dan **SQL Server**.
-Project ini dibuat berdasarkan modul training (ITTSB) dan sudah mendukung fitur CRUD serta autentikasi login dengan enkripsi SHA256.
+Aplikasi desktop sederhana berbasis **C# WinForms** yang menggunakan **LINQ to SQL** dan **Microsoft SQL Server**.
+Project ini dibuat berdasarkan modul training (ITTSB) dan mendukung fitur CRUD serta autentikasi login dengan enkripsi SHA256.
 
 ---
 
@@ -9,7 +16,7 @@ Project ini dibuat berdasarkan modul training (ITTSB) dan sudah mendukung fitur 
 
 * 🔐 Login dengan enkripsi **SHA256**
 * 📊 CRUD Data Member (Create, Read, Update, Delete)
-* 🔍 Search data realtime
+* 🔍 Pencarian data secara realtime
 * 🆔 Auto Generate ID (format: `M2026xxxxx`)
 * 🖥️ Multi Document Interface (MDI Form)
 * 🔗 Koneksi database menggunakan LINQ to SQL
@@ -46,7 +53,7 @@ gomart/
 
 ### 1. Setup Database
 
-Buka **SQL Server Management Studio (SSMS)** lalu jalankan script berikut:
+Buka **SQL Server Management Studio (SSMS)**, lalu jalankan script berikut:
 
 ```sql
 CREATE DATABASE gomart;
@@ -83,7 +90,7 @@ INSERT INTO Employee VALUES
 
 1. Buka **Visual Studio**
 2. Klik **Open Project/Solution**
-3. Pilih file `.sln` project kamu
+3. Pilih file `.sln`
 
 ---
 
@@ -142,12 +149,9 @@ Password : 123
 ## ⚠️ Catatan Penting
 
 * Pastikan SQL Server aktif
-* Jangan lupa membuat `.dbml`
+* Jangan lupa membuat file `.dbml`
 * Jangan upload folder `bin/` dan `obj/` ke GitHub
 * Gunakan `.gitignore` untuk project C#
-
----
-
 
 ---
 
@@ -162,8 +166,5 @@ Password : 123
 
 Project ini cocok untuk:
 
-* Tugas sekolah / Belajar
-* sementara, dulu
-* Latihan CRUD + Database di C#
-
----
+* Tugas sekolah / pembelajaran
+* Latihan CRUD dan database menggunakan C#
