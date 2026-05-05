@@ -1,6 +1,6 @@
 ## 🚀 Versi Ringan & Efisien
 
-* 🖥️ **Visual Studio** → menjalankan aplikasi C#
+* 🖥️ **Visual Studio** → mengedit code aplikasi C#
 * 🗄️ **SQL Server Management Studio** → mengelola database
 
 ---
