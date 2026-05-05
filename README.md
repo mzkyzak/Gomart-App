@@ -44,7 +44,6 @@ gomart/
 ├── DataClass.cs
 ├── App.config
 ├── DataClasses.dbml
-└── README.md
 ```
 
 ---
